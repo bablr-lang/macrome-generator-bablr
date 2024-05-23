@@ -1,0 +1,29 @@
+{
+  "name": "@bablr/macrome-generator-bablr",
+  "description": "A macrome generator for BABLR languages",
+  "version": "0.0.0",
+  "author": "Conrad Buck<conartist6@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/core": "7.24.5",
+    "prettier": "^2.0.5",
+    "path-complete-extname": "1.0.0"
+  },
+  "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^8.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.6.2"
+  },
+  "repository": "github:bablr-lang/coroutine",
+  "homepage": "https://github.com/bablr-lang/coroutine",
+  "license": "MIT"
+}
