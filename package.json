@@ -12,7 +12,6 @@
   "sideEffects": false,
   "dependencies": {
     "@babel/core": "7.24.5",
-    "prettier": "^2.0.5",
     "path-complete-extname": "1.0.0"
   },
   "devDependencies": {
